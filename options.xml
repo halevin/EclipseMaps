@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<options>
+<genetic>
+<iterations>3000</iterations>
+<models>1</models>
+<rep_freq>10</rep_freq>
+<base_mutation_rate>0.3</base_mutation_rate>
+<pressure>0.3</pressure>
+<entropy>0.0</entropy>
+<spline_width>0.1</spline_width>
+<genes>100</genes>
+<points>100</points>
+<catastrophic_regime>
+20</catastrophic_regime>
+<elite_mutation>10</elite_mutation>
+</genetic>
+<binary_system>
+<inclination>3.0</inclination>
+<mu>0.3</mu>
+<band>2</band>
+<extinction>0.0</extinction>
+<distance>300.0</distance>
+<period>0.3</period>
+</binary_system>
+<model_limits>
+<fflumi max="2.00001" min="1.0E-8" /><starlumi max="2.00001" min="1.0E-8" /><lumi_zero max="2.00001" min="1.0E-8" /></model_limits>
+</options>
